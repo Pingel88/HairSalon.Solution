@@ -31,7 +31,10 @@ To run this project locally you will need to have .NET Core and MySQL, follow al
 
 ###  *View website*
 A GitHub page is not available for this project. To view functionality in your browser:
-* Navigate to the **'HairSalon'** folder in your terminal using `cd HairSalon`
+* Rename **EDITMEappsettings.json** to **appsettings.json**
+* Open **appsettings.json** in VS Code or Notepad
+  * Enter your password in the DefaultConnection string (replacing `[PASSWORD]`) and save the file
+* Navigate to the **'HairSalon'** folder in your terminal
 * Enter `dotnet run`
 * Open your browser and visit http://localhost:5000
 
