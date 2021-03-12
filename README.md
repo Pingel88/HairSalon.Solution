@@ -11,8 +11,10 @@ ___
 ## *Description*    
 ### *An MVC application to manage stylists and their clients at Eau Claire's Salon. Upon being greeted with a splash page, the user can add new clients and stylists as well as view clients tied to individual stylists. This project utilizes Entity to communicate with a MySQL database that stores client and stylist data.*
 
-
 ## *Setup/Installation instructions*
+___
+# **ADD MySQL IMPORT INSTRUCTIONS**
+___
 ### *From the web*
 * Go to the GitHub repository for this project: [https://github.com/Pingel88/HairSalon.Solution.git](https://github.com/Pingel88/HairSalon.Solution.git).
 * At the top of the repository, click <img src="https://i.imgur.com/Ej9Dphm.png" alt="Code Button" height="20" align="center" /> then select "Download ZIP".
