@@ -53,7 +53,7 @@ A GitHub page is not available for this project. To view functionality in your b
 * Git & GitHub
 
 ## *Known bugs*
-* No known bugs.
+* Leaving a **'Not Null'** field blank will send the user to an error page forcing them to use the browser back button.
 
 ## Contact Information
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](mailto:mdpingel+github@gmail.com?subject=[GitHub]Epicodus%20Project%20-%20HairSalon.Solution)
