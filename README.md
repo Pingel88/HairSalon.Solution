@@ -12,9 +12,6 @@ ___
 ### *An MVC application to manage stylists and their clients at Eau Claire's Salon. Upon being greeted with a splash page, the user can add new clients and stylists as well as view clients tied to individual stylists. This project utilizes Entity to communicate with a MySQL database that stores client and stylist data.*
 
 ## *Setup/Installation instructions*
-___
-# **ADD MySQL IMPORT INSTRUCTIONS**
-___
 ### *From the web*
 * Go to the GitHub repository for this project: [https://github.com/Pingel88/HairSalon.Solution.git](https://github.com/Pingel88/HairSalon.Solution.git).
 * At the top of the repository, click <img src="https://i.imgur.com/Ej9Dphm.png" alt="Code Button" height="20" align="center" /> then select "Download ZIP".
@@ -31,6 +28,14 @@ To run this project locally you will need to have .NET Core and MySQL, follow al
 
 ###  *View website*
 A GitHub page is not available for this project. To view functionality in your browser:
+* Import **mike_pingel.sql** database
+  * Open MySQL Workbench and select your local instance
+  * Select `Data Import/Restore` on the Administration tab in the Navigator
+  * Select `Import from Self-Contained File` and navigate to and select the **mike_pingel.sql** file you cloned/downloaded with the project
+  * Select `New...` under Default Schema to be Imported To
+  * Enter `mike_pingel` and click OK
+  * Click on `Start Import` to import the database
+  * Close MySQL Workbench if desired
 * Rename **EDITMEappsettings.json** in the **'HairSalon'** folder to **appsettings.json**
 * Open **appsettings.json** in VS Code or Notepad
   * Enter your password in the DefaultConnection string (replacing `[PASSWORD]`) and save the file
