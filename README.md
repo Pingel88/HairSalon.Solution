@@ -49,6 +49,7 @@ A GitHub page is not available for this project. To view functionality in your b
 * MySQL & MySQL Workbench
 * <span>ASP.</span>NET Core MVC
 * Razor
+* HTML Helper
 * REPL
 * Git & GitHub
 
